@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<segments>
+    <segment id="MID" name="messageIdentification">
+        <data_element id="1004" name="documentNumber" type="an" maxlength="17"></data_element>
+            <!--        Check id="C817" -->
+        <composite_data_element id="C817" name="documentDataTime">
+            <data_element id="2007" name="documentDateCoded" type="n6"/>
+            <data_element id="2002" name="time" type="n4"/>
+        </composite_data_element>
+        <data_element id="4426" name="authentication" type="an" maxlength="35"/>
+    </segment>
+    <segment id="SDT" name="sellerDetails">
+        <composite_data_element id="C817" name="seller">
+            <data_element id="3347" name="coded" type="an" maxlength="20"/>
+            <data_element id="3036" name="partName" type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3296" name="internalId" type="an" maxlength="17"/>
+        </composite_data_element>
+        <composite_data_element id="C817" name="commercialDepartmentOrEmployee">
+            <data_element id="3413" name="coded" type="an" maxlength="17"/>
+            <data_element id="3412" name="departmentOrEmployee" type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+            <data_element id="3124" name="nameAndAddressLine" desc="Free form name and address description." type="an" maxlength="35"/>
+        </composite_data_element>
+    </segment>
+</segments>

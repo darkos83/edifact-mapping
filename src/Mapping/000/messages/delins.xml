@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<message>
+    <defaults>
+        <data_element id="0065" value="DELINS"/>
+        <data_element id="0052" value="3"/>
+        <data_element id="0054" value="000"/>
+        <data_element id="0051" value="OD"/>
+    </defaults>
+    <segment id="UNH" maxrepeat="1" required="true"/>
+    <segment id="MID" maxrepeat="1" required="true"/>
+    <segment id="SDT" maxrepeat="1" required="true"/>
+    <segment id="UNT" maxrepeat="1" required="true"/>
+</message>
