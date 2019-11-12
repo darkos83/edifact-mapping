@@ -987,6 +987,7 @@
       <data_element id="3055" name="codeListResponsibleAgency,Coded" usage="C" desc="Code identifying the agency responsible for a code list." type="an" maxlength="3"/>
       <data_element id="7008" name="itemDescription" usage="C" desc="Plain language description of articles or products." type="an" maxlength="256"/>
       <data_element id="7008" name="itemDescription" usage="C" desc="Plain language description of articles or products." type="an" maxlength="256"/>
+      <data_element id="3453" name="languageCoded" desc="Code of language (ISO 639-1988)." type="an" maxlength="3"/>
     </composite_data_element>
     <data_element id="7383" name="surface/layerIndicator,Coded" usage="B" desc="Code indicating the surface or layer of a product that is being described." type="an" maxlength="3"/>
   </segment>
