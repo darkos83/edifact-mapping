@@ -1068,8 +1068,10 @@
   <segment id="LOC" name="place/locationIdentification" desc="To identify a place or a location and/or related locations.">
     <data_element id="3227" required="true" name="place/locationQualifier" usage="C" desc="Code identifying the function of a location." type="an" maxlength="3"/>
     <composite_data_element id="C517" name="locationIdentification" desc="Identification of a location by code or name.">
+      <data_element id="3225" name="placelocationIdentification" desc="Identification of the name of place/location, other than 3164 City name." type="an" maxlength="25"/>
       <data_element id="1131" name="codeListQualifier" usage="C" desc="Identification of a code list." type="an" maxlength="3"/>
       <data_element id="3055" name="codeListResponsibleAgency,Coded" usage="C" desc="Code identifying the agency responsible for a code list." type="an" maxlength="3"/>
+      <data_element id="3224" name="placelocation" desc="Name of place/location, other than 3164 City name." type="an" maxlength="70"/>
     </composite_data_element>
     <composite_data_element id="C519" name="relatedLocationOneIdentification" desc="Identification the first related location by code or name.">
       <data_element id="3223" name="relatedPlace/locationOneIdentification" usage="C" desc="Specification of the first related place/location by code." type="an" maxlength="25"/>
